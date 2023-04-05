@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homefragment"
+
+        android:icon="@drawable/checkedstatehome"
+        android:title="Home" />
+
+    <item android:id="@+id/explorefragment"
+        android:icon="@drawable/checkedstateexplore"
+        android:title="Explore" />
+
+    <item android:id="@+id/addfragment"
+        android:icon="@drawable/checkedstateadd"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/videofragment"
+        android:icon="@drawable/checkedstatevideo"
+        android:title="Video" />
+
+    <item android:id="@+id/accountfragment"
+        android:icon="@drawable/checkedstateaccount"
+        android:title="Account"/>
+
+</menu>

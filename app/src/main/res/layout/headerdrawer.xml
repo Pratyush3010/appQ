@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/headerbackgound">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/photo" />
+
+
+    <TextView
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="53dp"
+        android:layout_toRightOf="@+id/photo"
+        android:text="Jhon Duo"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="28dp"
+        android:id="@+id/drawercancel"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4DE9EBEF"
+        android:background="@drawable/round_new"
+        android:layout_alignParentRight="true"
+        android:layout_height="28dp">
+
+        <ImageView
+            android:id="@+id/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/cross" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
